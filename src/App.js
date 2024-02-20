@@ -19,7 +19,7 @@ const LoginForm = () => {
           <h2 className="text-center mb-4">Connexion</h2>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label>Email</Form.Label>
+              <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="Entrez votre email"
